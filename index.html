@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header__top">
+            <div class="header__logo">
+                <h1 class="header__title">
+                    deWeloper
+                    <span class="header__subtitle">OLMAMAQCUN SEBEBLER</span>
+                </h1>
+            </div>
+            <div class="header__cart">
+                <ul>
+                    <li class="header__submenu" id="submenu">
+                        <button class="header__cart-btn" id="toggle-cart-btn"><svg class="cart" width="24" height="24" viewBox="0 0 24 24">
+<path d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z"></path>
+</svg> Basket ishleyir vallah,yoxla🥰</button>
+                        <div id="shopping-cart" class="shopping-cart-container">
+                            <table id="cart-content">
+                                <thead>
+                                    <tr>
+                                        <th>Image</th>
+                                        <th>Name</th>
+                                        <th>Price</th>
+                                        <th>Count</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <p class="total-container" id="total-price"></p>
+                            <a href="#" id="checkout-btn" class="cart-btn">Checkout</a>
+                            <a href="#" id="clear-cart" class="cart-btn">Clear Cart</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__main">
+            <p class="display-title text-light">
+                ELISKENDER deWeloper olmamishdan qabaq bele eylenirdi ! </p>
+        </div>
+        <div class="arrow"><svg width="24" height="24" viewBox="0 0 24 24">
+<path d="M11,4H13V16L18.5,10.5L19.92,11.92L12,19.84L4.08,11.92L5.5,10.5L11,16V4Z"></path>
+</svg></div>
+    </header>
+    <main class="container page-content">
+        <h2 class="page-title">Step by step bashliyaq:</h2>
+        <h2 class="page-title">Xahish edirem baskete at,ishleyir valla</h2>
+
+        <div class="grid" id="grid">
+            <div class="card">
+                <img src="./img/image-1.jpg" class="card__image" alt="">
+                <div class="card__info">
+                    <h4 class="card__title">Front finalina yaxin halim </h4>
+                    <p class="card__text">Prototype basha dushmuyen Iskender</p>
+                    <p class="card__price">$200</p>
+                    <button class="card__btn add-to-cart" data-id="6">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/image-2.jpg" class="card__image" alt="">
+                <div class="card__info">
+                    <h4 class="card__title">Programlashdirma nedi bilmiyende men</h4>
+                    <p class="card__text">Directed by Robert Wide</p>
+                    <p class="card__price">$100</p>
+                    <button class="card__btn add-to-cart" data-id="7">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/image-3.jpg" class="card__image" alt="">
+                <div class="card__info">
+                    <h4 class="card__title">Gurcustan , 2021 yay</h4>
+                    <p class="card__text">IMDB: 10.00</p>
+                    <p class="card__price">$150</p>
+                    <button class="card__btn add-to-cart" data-id="8">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/image-4.jpg" alt="" class="card__image">
+                <div class="card__info">
+                    <h4 class="card__title">Qardashlarla selfie</h4>
+                    <p class="card__text">ofasfasfsaf</p>
+                    <p class="card__price">$50</p>
+                    <button class="card__btn add-to-cart" data-id="9">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/image-5.jpg" alt="" class="card__image">
+                <div class="card__info">
+                    <h4 class="card__title">adgdasg</h4>
+                    <p class="card__text">Agdasgads</p>
+                    <p class="card__price">$100</p>
+                    <button class="card__btn add-to-cart" data-id="10">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/image-6.jpg" alt="" class="card__image">
+                <div class="card__info">
+                    <h4 class="card__title">dgdasgt</h4>
+                    <p class="card__text">Mgasgdna</p>
+                    <p class="card__price">$300</p>
+                    <button class="card__btn add-to-cart" data-id="11">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/image-7.jpg" alt="" class="card__image">
+                <div class="card__info">
+                    <h4 class="card__title">bezdim</h4>
+                    <p class="card__text">bezdim</p>
+                    <p class="card__price">$200</p>
+                    <button class="card__btn add-to-cart" data-id="12">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="./js/script.js"></script>
+</body>
+
+</html>
